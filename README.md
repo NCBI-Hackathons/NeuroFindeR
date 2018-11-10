@@ -2,17 +2,17 @@
 
 ## Awesome Logo
 
-## We developed an unbiased computational strategy to identify distinct populations that presumably represent neurons, glia, debris, and ambient RNA, starting with the Seurat R package. 
+## We developed an unbiased computational strategy to identify distinct populations that presumably represent neurons, glia, debris, and ambient RNA, starting with the Seurat R package.
 
-# What is <this software>?
+# What is NeuroFindeR?
 
 Overview Diagram
 
-# How to use <this software>
+# How to use NeuroFindeR
 
 # Software Workflow Diagram
 
-# File structure diagram 
+# File structure diagram
 #### _Define paths, variable names, etc_
 
 ### Installing <this software> from Github
@@ -28,5 +28,4 @@ Overview Diagram
 
 # Testing
 
-We tested four different tools with <this software>. They can be found in [server/tools/](server/tools/) . 
-
+We tested four different tools with <this software>. They can be found in [server/tools/](server/tools/) .
