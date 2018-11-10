@@ -1,4 +1,4 @@
-# Neurofinder
+# NeuroFinder
 
 ## Awesome Logo
 
