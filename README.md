@@ -1,12 +1,8 @@
-# NeuroFinder
+# NeuroFindeR
 
 ## Awesome Logo
 
-## Intro statement
-
-## What's the problem?
-
-## Why should we solve it?
+## We developed an unbiased computational strategy to identify distinct populations that presumably represent neurons, glia, debris, and ambient RNA, starting with the Seurat R package. 
 
 # What is <this software>?
 
