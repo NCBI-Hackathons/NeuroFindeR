@@ -87,9 +87,11 @@ getClusterInfo <- function(ASeuratObject) {
 }
 
 getClusterDistance <- function(df) {
-        
+        ## Calculate the number of unique clusters
         all.clust <- unique(df$RawClust.ident)
-        
+        ## Loop through each individual cluster and compute centroid and distance from
+        ## centroid. Each cluster, along with its unique centroid and distance from 
+        ## centroid for each cell is then written into a file.
         for(cluster in all.clust){
                 temp <- df[which(df$RawClust.ident == cluster),3:ncol(df)]
                 centroids <- apply(temp, 2, mean)
@@ -100,6 +102,8 @@ getClusterDistance <- function(df) {
                 
                 x1<-apply(dists, 1, function(x) sqrt(sum(x)))
                 x1<-cbind(df[which(df$RawClust.ident == cluster),1:2], x1)
+                write.table(x1, paste0("cluster_", cluster, "_distances.txt"), sep = "\t",
+                            quote = FALSE, col.names = TRUE, row.names = TRUE )
                 
         } 
 }
