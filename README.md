@@ -1,6 +1,6 @@
 # NeuroFindeR
 
-## Awesome Logo
+(https://github.com/NCBI-Hackathons/NeuroFindeR/blob/master/logo4.tiff)
 
 ## We developed an unbiased computational strategy to identify distinct populations that presumably represent neurons, glia, debris, and ambient RNA, starting with the Seurat R package.
 
